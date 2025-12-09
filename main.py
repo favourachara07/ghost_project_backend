@@ -9,7 +9,11 @@ app = FastAPI(title="Ghost Project Hunter API")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000"],
+    allow_origins=[
+        "http://localhost:3000",
+        "https://integrity-lens-favour.vercel.app",  # <--- ADD THIS EXACT LINE
+        "https://integrity-lens-favour.vercel.app/"  # <--- Add with slash too just in case
+    ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
