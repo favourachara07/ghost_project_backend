@@ -3,5 +3,5 @@ uvicorn
 earthengine-api
 numpy
 pandas
-tensorflow
-# (Uncomment when you are ready to load the full CNN)
+tensorflow-cpu   # Use cpu version to save slug size/memory on free tier
+pillow
