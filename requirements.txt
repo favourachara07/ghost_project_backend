@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+earthengine-api
+numpy
+pandas
+tensorflow
+# (Uncomment when you are ready to load the full CNN)

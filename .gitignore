@@ -1,0 +1,15 @@
+# Ignore Virtual Environment
+venv/
+__pycache__/
+*.pyc
+
+# Ignore Environment Variables (Secrets)
+.env
+
+# Ignore Large Model Files (Too big for GitHub)
+models/*.h5
+models/*.keras
+models/*.pt
+
+# Ignore IDE settings
+.vscode/
